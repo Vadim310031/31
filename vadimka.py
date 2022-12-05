@@ -1,12 +1,18 @@
-x=int(imput())
-y=int(imput())
-r=int(imput())
-x1=int(imput())
-y1=int(imput())
-a=0
-if x<x1:
-    a=x1-x
+print("Введите числа")
+a=int(input())
+print(id(a))
+b=int(input())
+print(id(b))
+c=int(input())
+print(id(c))
+if a>b:
+    if a>c:
+        print(a, id(a))
+    else:
+        print(c, id(c))
 else:
-    a=x-x1
-if y<y1:
-    c=
+    if b>c:
+        print(b, id(b))
+    else:
+        print(c, id(c))
+
