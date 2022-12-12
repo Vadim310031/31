@@ -15,9 +15,23 @@ r=(60-len(tt)-1)
 
 print(tt+" "*r+"|")
 
+
 t="| Влажность: "
 tt=(t+vl+" % ")
 r=(60-len(tt)-1)
 
 print(tt+" "*r+"|")
 
+
+t="| Ветер: "
+tt=(t+veter+" м/c ")
+r=(60-len(tt)-1)
+
+print(tt+" "*r+"|")
+
+
+t="| Давление: "
+tt=(t+davlenie+" м/c ")
+r=(60-len(tt)-1)
+
+print(tt+" "*r+"|")
