@@ -74,7 +74,7 @@ def CreateTabl(leftpar, parametr, comment, write):
     print(tt+" "*r+"|")
 
 CreateTabl("Температура  " , temp, "  Гр. Ц.", write1)
-CreateTabl("Давление  " , vl, "  %", write2)
+CreateTabl("Влажность  " , vl, "  %", write2)
 CreateTabl("Ветер  " , veter, "  м/с", write3)
 CreateTabl("Давление  ", davlenie, "  мм. рт. ст.",write4)
 CreateTabl(input())
