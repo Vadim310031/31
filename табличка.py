@@ -1,4 +1,4 @@
-print("Введите данные")             # у меня не выводится print(b+c+b) в последней строке
+print("Введите данные")            
 print("Введите температуру:")
 temp=input()
 print("Введите влажность:")
@@ -8,7 +8,7 @@ veter=input()
 print("Введите давление:")
 davlenie=input()
 print("Введите коментарий:")
-comment=input()
+comment1=input()
 a="-"
 b="+"
 c=a*58
@@ -77,6 +77,6 @@ CreateTabl("Температура  " , temp, "  Гр. Ц.", write1)
 CreateTabl("Влажность  " , vl, "  %", write2)
 CreateTabl("Ветер  " , veter, "  м/с", write3)
 CreateTabl("Давление  ", davlenie, "  мм. рт. ст.",write4)
-CreateTabl(input())
+CreateTabl(comment1, " ", " ", " " )
 
 print(b+c+b)
