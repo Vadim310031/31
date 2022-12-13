@@ -7,31 +7,19 @@ comment=input()
 a="-"
 b="+"
 c=a*58
+
+def CreateTabl(leftpar, parametr, comment):    
+    t="| " + leftpar 
+    tt=(t+parametr+comment)
+    r=(60-len(tt)-1)
+
+    print(tt+" "*r+"|")
 print(b+c+b)
 
-t="| Температура: "
-tt=(t+temp+" гр Цельсия ")
-r=(60-len(tt)-1)
+CreateTabl("Температура  " , temp, "  Гр. Ц.")
+CreateTabl("Давление  " , vl, "  %")
+CreateTabl("Ветер  " , veter, "  м/с")
+CreateTabl("Давление  ", davlenie, "  мм. рт. ст.")
+CreateTabl(input())
 
-print(tt+" "*r+"|")
-
-
-t="| Влажность: "
-tt=(t+vl+" % ")
-r=(60-len(tt)-1)
-
-print(tt+" "*r+"|")
-
-
-t="| Ветер: "
-tt=(t+veter+" м/c ")
-r=(60-len(tt)-1)
-
-print(tt+" "*r+"|")
-
-
-t="| Давление: "
-tt=(t+davlenie+" м/c ")
-r=(60-len(tt)-1)
-
-print(tt+" "*r+"|")
+print(b+c+b)
