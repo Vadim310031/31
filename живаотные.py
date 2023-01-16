@@ -6,5 +6,5 @@ class Annimals:
         elif name == "Курица"or"курица":
             zv = "ko-ко-ko"
             self.zv = zv
-        
-print(Annimals(input("Введите имя ")))
+vorona = Annimals("ворона")
+print(vorona.zv)
